@@ -1,0 +1,265 @@
+.right_bord {
+  right: 0
+}
+
+.right_bord .numberPage_count {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  margin-top: 5px;
+  text-align: center;
+  font-size: 24px;
+  font-family: BebasNeueLight, sans-serif
+}
+
+.right_bord .numberPage_wrapCont {
+  position: absolute;
+  top: 40%;
+  bottom: 0;
+  height: 300px;
+  right: 40px
+}
+
+.right_bord .numberPage_wrap {
+  width: 20px;
+  height: 100%;
+  text-align: center;
+  overflow: hidden
+}
+
+.right_bord .numberPage_wrap .numberPage_dotWrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column
+}
+
+.numberPage_item {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.right_bord .numberPage_wrap .numberPage_dotWrap .numberPage_item {
+  position: relative;
+  font-size: 1rem;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease
+}
+
+.right_bord .numberPage_wrap .numberPage_dotWrap .numberPage_item .numberPage_item__dot {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: #1e1e1e;
+  margin: 6px auto;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: -2px 2px 5px rgba(0, 0, 0, .5);
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, .5);
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease
+}
+
+.right_bord .numberPage_wrap .numberPage_dotWrap .numberPage_item .numberPage_item__line {
+  position: absolute;
+  width: 1px;
+  height: 30px;
+  background: #1e1e1e;
+  top: 50px;
+  opacity: 0;
+  -webkit-box-shadow: -3px 3px 5px rgba(0, 0, 0, .5);
+  box-shadow: -3px 3px 5px rgba(0, 0, 0, .5);
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease
+}
+
+.right_bord .numberPage_wrap .numberPage_dotWrap .numberPage_item .numberPage_item__count {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  opacity: 0;
+  color: #1e1e1e;
+  text-shadow: 0 0 1px rgba(0, 0, 0, .5);
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease
+}
+
+.right_bord .numberPage_wrap .numberPage_dotWrap .numberPage_item:hover .numberPage_item__dot {
+  background-color: #ebd300 !important
+}
+
+.right_bord .numberPage_wrap .numberPage_dotWrap .numberPage_item:hover {
+  padding-top: 30px !important;
+  padding-bottom: 60px !important
+}
+
+.right_bord .numberPage_wrap .numberPage_dotWrap .numberPage_item:hover .numberPage_item__count,
+.right_bord .numberPage_wrap .numberPage_dotWrap .numberPage_item:hover .numberPage_item__line {
+  opacity: 1 !important;
+  -webkit-transition: all .5s ease !important;
+  transition: all .5s ease !important
+}
+
+.right_bord .numberPage_wrap .numberPage_dotWrap .numberPage_item:hover:nth-child(7) .numberPage_item__line {
+  opacity: 0 !important
+}
+
+.right_bord .numberPage_wrap .numberPage_dotWrap .numberPage_item:hover .numberPage_item__count {
+  top: 10px !important
+}
+
+.local_wrap {
+  position: absolute;
+  width: 100px;
+  height: 25px;
+  top: 7.5%;
+  right: 0;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  overflow: hidden
+}
+
+.local_wrap .local_item {
+  position: absolute;
+  top: 0;
+  font-family: BebasNeueLight, sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+  color: #000;
+  margin: 0 5px;
+  cursor: pointer;
+  -webkit-transition: all .5s cubic-bezier(1, .5, .38, 1.2);
+  transition: all .5s cubic-bezier(1, .5, .38, 1.2)
+}
+
+.local_wrap .local_item:after {
+  position: absolute;
+  display: block;
+  top: -100%;
+  left: 0;
+  color: #ebd300
+}
+
+.local_wrap .local_item:nth-child(1) {
+  left: 0
+}
+
+.local_wrap .local_item:nth-child(1):after {
+  content: "EN"
+}
+
+.local_wrap .local_item:nth-child(2) {
+  left: 40%;
+  font-family: BebasNeueBold, sans-serif;
+  right: 0
+}
+
+.local_wrap .local_item:nth-child(2):after {
+  content: "ES"
+}
+
+.local_wrap .local_item:hover {
+  top: 120%
+}
+
+.nav_container .call_back__callBtn:after,
+.nav_container .local_item:after {
+  color: #fff
+}
+
+.nav_container .call_back__callBtn,
+.nav_container .local_item {
+  color: #000 !important
+}
+
+.call_back {
+  position: absolute;
+  width: 115px;
+  height: 22px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  right: -7px;
+  bottom: 9.5%;
+  font-size: 24px;
+  font-family: BebasNeueBold, sans-serif;
+  color: #000;
+  overflow: hidden
+}
+
+
+.call_back .call_back__callBtn {
+  cursor: pointer;
+  top: 0;
+  text-decoration: none;
+  color: #000;
+  position: absolute;
+  -webkit-transition: all .35s cubic-bezier(1, .5, .38, 1.2);
+  transition: all .35s cubic-bezier(1, .5, .38, 1.2)
+}
+
+.call_back .call_back__callBtn:after {
+  position: absolute;
+  content: "CONTACT ME";
+  top: -100%;
+  left: 0;
+  color: #ebd300
+}
+
+.call_back .call_back__callBtn:hover {
+  top: 125%
+}
+
+.call_back__callBtn {
+  color: black;
+}
+
+
+
+@media screen and (max-width:1368px) {
+  .right_bord {
+    width: 50px
+  }
+
+  .right_bord .numberPage_wrapCont {
+    right: 16px
+  }
+
+  .right_bord .numberPage_wrapCont .numberPage_count {
+    font-size: 20px
+  }
+
+  .local_wrap {
+    right: -22px
+  }
+
+  .local_wrap .local_item {
+    font-size: 20px
+  }
+
+  .local_wrap .local_item:hover {
+    top: 100%
+  }
+
+  .call_back {
+    width: 102px;
+    right: -23px;
+    font-size: 20px
+  }
+}
+
+@media screen and (max-width:960px) {
+  .right_bord {
+    display: none
+  }
+}
