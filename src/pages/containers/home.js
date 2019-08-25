@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import RightBord from '../../bord/containers/right_bord';
+import RightBord from '../../right_bord/containers/right_bord';
 import '../components/home.css';
 import '../components/fonts.css'
 
