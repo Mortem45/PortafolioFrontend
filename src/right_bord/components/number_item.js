@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const NumberItem = props => (
   <div className="numberPage_item" >
@@ -6,6 +6,6 @@ const NumberItem = props => (
     <span className="numberPage_item__line"></span>
     <span className="numberPage_item__dot"></span>
   </div>
-);
+)
 
-export default NumberItem;
+export default NumberItem

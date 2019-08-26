@@ -30,6 +30,9 @@ html {
     position: relative;
     font-family: 'Open Sans', sans-serif
 }
+body {
+  overflow: hidden;
+}
 
 .section {
     overflow: hidden

@@ -1,12 +1,12 @@
-const path = require('path');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const path = require('path')
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
 
 module.exports = env => {
-  const plugins = [new ExtractTextPlugin('css/[name].css')];
+  const plugins = [new ExtractTextPlugin('css/[name].css')]
 
   if (env.NODE_ENV === 'production') {
-    plugins.push(new CleanWebpackPlugin(['dist'], { root: __dirname }));
+    plugins.push(new CleanWebpackPlugin(['dist'], { root: __dirname }))
   }
 
   return {
@@ -76,5 +76,5 @@ module.exports = env => {
       ]
     },
     plugins
-  };
-};
+  }
+}
