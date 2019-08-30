@@ -1,0 +1,85 @@
+.social_wrap {
+  cursor: pointer;
+  position: absolute;
+  bottom: 10.8%;
+  left: -35px;
+  width: 160px;
+  height: 25px;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  overflow: hidden
+}
+
+.social_wrap .social_item {
+  font-size: 24px;
+  font-family: BebasNeueBold, sans-serif;
+  color: #000;
+  text-decoration: none;
+  margin: 0 5px;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all .5s cubic-bezier(1, .5, .38, 1.2);
+  transition: all .5s cubic-bezier(1, .5, .38, 1.2)
+}
+
+.social_wrap .social_item:after {
+  position: absolute;
+  left: 0;
+  display: block;
+  top: -100%;
+  color: #ebd300
+}
+
+.social_wrap .social_item:nth-child(1) {
+  left: 0
+}
+
+.social_wrap .social_item:nth-child(1):after {
+  content: "FB"
+}
+
+.social_wrap .social_item:nth-child(2) {
+  left: 20%
+}
+
+.social_wrap .social_item:nth-child(2):after {
+  content: "IG"
+}
+
+.social_wrap .social_item:nth-child(3) {
+  left: 40%
+}
+
+.social_wrap .social_item:nth-child(3):after {
+  content: "YT"
+}
+
+.social_wrap .social_item:nth-child(4) {
+  left: 60%
+}
+
+.social_wrap .social_item:nth-child(4):after {
+  content: "TW"
+}
+
+.social_wrap .social_item:hover {
+  top: 100%
+}
+
+.social_item {
+  color: #000;
+}
+
+
+@media screen and (max-width:1368px) {
+  .social_wrap {
+    left: -53px;
+    bottom: 11.8%;
+    z-index: 50
+  }
+
+  .social_wrap .social_item {
+    font-size: 20px
+  }
+}

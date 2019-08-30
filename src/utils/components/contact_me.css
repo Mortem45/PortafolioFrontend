@@ -1,0 +1,49 @@
+.call_back {
+  position: absolute;
+  width: 115px;
+  height: 22px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  right: -7px;
+  bottom: 9.5%;
+  font-size: 24px;
+  font-family: BebasNeueBold, sans-serif;
+  color: #000;
+  overflow: hidden
+}
+
+
+.call_back .call_back__callBtn {
+  cursor: pointer;
+  top: 0;
+  text-decoration: none;
+  color: #000;
+  position: absolute;
+  -webkit-transition: all .35s cubic-bezier(1, .5, .38, 1.2);
+  transition: all .35s cubic-bezier(1, .5, .38, 1.2)
+}
+
+.call_back .call_back__callBtn:after {
+  position: absolute;
+  content: "CONTACT ME";
+  top: -100%;
+  left: 0;
+  color: #ebd300
+}
+
+.call_back .call_back__callBtn:hover {
+  top: 125%
+}
+
+.call_back__callBtn {
+  color: black;
+}
+
+@media screen and (max-width:1368px) {
+  .call_back {
+    width: 102px;
+    right: -23px;
+    font-size: 20px
+  }
+}

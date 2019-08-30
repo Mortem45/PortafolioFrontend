@@ -1,4 +1,5 @@
 import React from "react"
+import './lenguage_wrap.css'
 
 const LenguWrap = props => (
   <div className="local_wrap">

@@ -117,115 +117,6 @@
   top: 10px !important
 }
 
-.local_wrap {
-  position: absolute;
-  width: 100px;
-  height: 25px;
-  top: 7.5%;
-  right: 0;
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-  overflow: hidden
-}
-
-.local_wrap .local_item {
-  position: absolute;
-  top: 0;
-  font-family: BebasNeueLight, sans-serif;
-  font-size: 22px;
-  text-decoration: none;
-  color: #000;
-  margin: 0 5px;
-  cursor: pointer;
-  -webkit-transition: all .5s cubic-bezier(1, .5, .38, 1.2);
-  transition: all .5s cubic-bezier(1, .5, .38, 1.2)
-}
-
-.local_wrap .local_item:after {
-  position: absolute;
-  display: block;
-  top: -100%;
-  left: 0;
-  color: #ebd300
-}
-
-.local_wrap .local_item:nth-child(1) {
-  left: 0
-}
-
-.local_wrap .local_item:nth-child(1):after {
-  content: "EN"
-}
-
-.local_wrap .local_item:nth-child(2) {
-  left: 40%;
-  font-family: BebasNeueBold, sans-serif;
-  right: 0
-}
-
-.local_wrap .local_item:nth-child(2):after {
-  content: "ES"
-}
-
-.local_wrap .local_item:hover {
-  top: 120%
-}
-
-.nav_container .call_back__callBtn:after,
-.nav_container .local_item:after {
-  color: #fff
-}
-
-.nav_container .call_back__callBtn,
-.nav_container .local_item {
-  color: #000 !important
-}
-
-.call_back {
-  position: absolute;
-  width: 115px;
-  height: 22px;
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-  right: -7px;
-  bottom: 9.5%;
-  font-size: 24px;
-  font-family: BebasNeueBold, sans-serif;
-  color: #000;
-  overflow: hidden
-}
-
-
-.call_back .call_back__callBtn {
-  cursor: pointer;
-  top: 0;
-  text-decoration: none;
-  color: #000;
-  position: absolute;
-  -webkit-transition: all .35s cubic-bezier(1, .5, .38, 1.2);
-  transition: all .35s cubic-bezier(1, .5, .38, 1.2)
-}
-
-.call_back .call_back__callBtn:after {
-  position: absolute;
-  content: "CONTACT ME";
-  top: -100%;
-  left: 0;
-  color: #ebd300
-}
-
-.call_back .call_back__callBtn:hover {
-  top: 125%
-}
-
-.call_back__callBtn {
-  color: black;
-}
-
-
-
 @media screen and (max-width:1368px) {
   .right_bord {
     width: 50px
@@ -239,17 +130,7 @@
     font-size: 20px
   }
 
-  .local_wrap {
-    right: -22px
-  }
 
-  .local_wrap .local_item {
-    font-size: 20px
-  }
-
-  .local_wrap .local_item:hover {
-    top: 100%
-  }
 
   .call_back {
     width: 102px;

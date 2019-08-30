@@ -1,0 +1,20 @@
+.logo {
+  position: absolute;
+  top: 9%;
+  left: -20px;
+  width: 130px;
+  height: 30px;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  z-index: 1;
+  font-family: BebasNeueBold, sans-serif;
+  font-size: 24px;
+}
+
+@media screen and (max-width:1368px) {
+  .logo {
+    left: -35px;
+    width: 115px
+  }
+}

@@ -90,100 +90,6 @@
   transition: transform .38s cubic-bezier(.175, .885, .32, 1.275), -webkit-transform .38s cubic-bezier(.175, .885, .32, 1.275)
 }
 
-.nav_container .nav_container__word {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  /* background: transparent url(../img/menu.svg) no-repeat center */
-}
-
-.social_wrap {
-  cursor: pointer;
-  position: absolute;
-  bottom: 10.8%;
-  left: -35px;
-  width: 160px;
-  height: 25px;
-  -webkit-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-  overflow: hidden
-}
-
-.social_wrap .social_item {
-  font-size: 24px;
-  font-family: BebasNeueBold, sans-serif;
-  color: #000;
-  text-decoration: none;
-  margin: 0 5px;
-  position: absolute;
-  top: 0;
-  -webkit-transition: all .5s cubic-bezier(1, .5, .38, 1.2);
-  transition: all .5s cubic-bezier(1, .5, .38, 1.2)
-}
-
-.social_wrap .social_item:after {
-  position: absolute;
-  left: 0;
-  display: block;
-  top: -100%;
-  color: #ebd300
-}
-
-.social_wrap .social_item:nth-child(1) {
-  left: 0
-}
-
-.social_wrap .social_item:nth-child(1):after {
-  content: "FB"
-}
-
-.social_wrap .social_item:nth-child(2) {
-  left: 20%
-}
-
-.social_wrap .social_item:nth-child(2):after {
-  content: "IG"
-}
-
-.social_wrap .social_item:nth-child(3) {
-  left: 40%
-}
-
-.social_wrap .social_item:nth-child(3):after {
-  content: "YT"
-}
-
-.social_wrap .social_item:nth-child(4) {
-  left: 60%
-}
-
-.social_wrap .social_item:nth-child(4):after {
-  content: "TW"
-}
-
-.social_wrap .social_item:hover {
-  top: 100%
-}
-
-.social_item{
-  color: #000;
-}
-
-.nav_container .call_back__callBtn:after,
-.nav_container .local_item:after,
-.nav_container .social_item:after {
-    color: #fff
-}
-
-.nav_container .call_back__callBtn,
-.nav_container .local_item,
-.nav_container .social_item {
-    color: #000!important
-}
-
 @media screen and (max-width:1368px) {
 
   .right_bord {
@@ -202,19 +108,7 @@
     font-size: 20px
   }
 
-  .nav_container .nav_container__word {
-    bottom: 0
-  }
 
-  .social_wrap {
-    left: -53px;
-    bottom: 11.8%;
-    z-index: 50
-  }
-
-  .social_wrap .social_item {
-    font-size: 20px
-  }
 }
 
 @media screen and (max-width:960px) {
