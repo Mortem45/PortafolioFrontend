@@ -1,5 +1,6 @@
 import React,{ Component } from 'react'
 import Section from '../components/section'
+import TitleSection from '../components/titleSections'
 import WOW from 'wowjs'
 
 export default class SectionContainer extends Component {
@@ -10,7 +11,7 @@ export default class SectionContainer extends Component {
  render() {
    return(
      <Section>
-
+       <TitleSection.AboutMe/>
      </Section>
    )
   }

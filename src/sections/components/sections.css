@@ -144,6 +144,69 @@
   border-right: 1px solid #ebd300
 }
 
+.services_title {
+  display: inline-block;
+  margin-top: 4%;
+  margin-left: 5%;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards
+}
+
+.services_title h2 {
+  font-size: 8rem;
+  color: #131313;
+  font-family: BebasNeueBold, sans-serif;
+  width: 420px;
+  line-height: 95%
+}
+
+.services_title h2 span {
+  margin-left: 110%
+}
+
+.services_title__sub {
+  max-width: 25%;
+  margin: 8% 0 10% 20%;
+  opacity: 0;
+  -webkit-animation-delay: .2s;
+  animation-delay: .2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards
+}
+
+.services_title__sub h3,
+.services_title__sub h4 {
+  font-size: 1.3rem;
+  color: #323232;
+  font-weight: 400
+}
+
+.services_title .services_title_sup {
+  display: none
+}
+
+@media screen and (max-width:1920px) {
+  .services_title h2 {
+    font-size: 6.666666666666667vw;
+    display: block
+  }
+
+  .services_title__sub h3,
+  .services_title__sub h4 {
+    font-size: 1.0416666666666667vw
+  }
+
+  .services_title h2 span {
+    margin-left: 7vw;
+    display: block
+  }
+
+  .about_us .services_title span {
+    margin-left: 7vw
+  }
+}
+
 @media screen and (max-width:1368px) {
 
   .about_us .wrapper,
@@ -157,6 +220,15 @@
 
   .services .wrapper ul {
     min-width: 40%
+  }
+
+  .services_title__sub h3,
+  .services_title__sub h4 {
+    font-size: 1.516666666666667vw
+  }
+
+  .services_title h2 {
+    font-size: 7.666666666666667vw
   }
 }
 
@@ -217,4 +289,99 @@
   .services .wrapper {
     padding-bottom: 100px;
   }
+
+  .services_title h2 span {
+    margin-left: 0
+  }
+
+  .wrapper .services_btn,
+  .wrapper .services_list,
+  .wrapper .services_list__wrap,
+  .wrapper .services_title,
+  .wrapper .services_title__sub {
+    opacity: 1
+  }
+
+  .wrapper {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important
+  }
+
+  .wrapper .services_title {
+    margin: 0;
+    text-align: center;
+    width: 100%
+  }
+
+  .wrapper .services_title h2 {
+    position: relative;
+    width: 100%;
+    font-size: 20.666666666666667vw
+  }
+
+  .wrapper .services_title .services_title_sup {
+    position: absolute;
+    top: 70px;
+    color: #f9f9f9;
+    font-size: 28.666666666666667vw
+  }
+
+  .wrapper .services_title__sub {
+    max-width: 100%;
+    margin: 8% 5% 10% 5%;
+    position: relative
+  }
+
+  .wrapper .services_title__sub h3,
+  .wrapper .services_title__sub h4 {
+    font-size: 1.2rem;
+    text-align: center
+  }
+
+  .services_title .services_title_sup {
+    display: block
+  }
+
+  .small_one .services_title_sup {
+    position: absolute;
+    top: 50px;
+    color: #272727;
+    font-size: 25.666666666666667vw
+  }
+
+  .small_one .services_title__sub {
+    max-width: 100%;
+    margin: 8% 5% 10% 5%;
+    position: relative
+  }
+
+  .small_one .services_title__sub h3,
+  .small_one .services_title__sub h4 {
+    font-size: 1.2rem
+  }
+
+  .about_us .services_title {
+    margin: 0;
+    text-align: center;
+    width: 100%
+  }
+
+  .about_us .services_title h2 span {
+    margin: 0
+  }
+
+
+}
+
+@media screen and (max-height:768px) and (max-width:1366px) {
+
+  .services_title h2 {
+    font-size: 5.666666666666667vw
+  }
+
+  .services_title__sub h3,
+  .services_title__sub h4 {
+    font-size: 1.216666666666667vw
+  }
+
 }

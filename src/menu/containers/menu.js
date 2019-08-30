@@ -5,6 +5,8 @@ import Logo from '../../utils/components/logo'
 import SocialWrap from '../../utils/components/social_wrap'
 import ContactMe from '../../utils/components/contact_me'
 import LenguWrap from '../../utils/components/lenguage_wrap'
+import NavMenu from '../components/navMenu'
+import NavExit from '../components/navExit'
 
 export default class MenuContainer extends Component {
   componentDidMount() {
@@ -18,6 +20,8 @@ export default class MenuContainer extends Component {
        <LenguWrap/>
        <SocialWrap />
        <ContactMe/>
+       <NavMenu/>
+       <NavExit/>
      </Menu>
    )
   }
