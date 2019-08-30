@@ -107,8 +107,6 @@
   .left_bord .menu_btn .menu_btn__container .menu_btn__text {
     font-size: 20px
   }
-
-
 }
 
 @media screen and (max-width:960px) {
@@ -127,79 +125,5 @@
 
   .left_bord .menu_btn .menu_btn__container .menu_btn__text {
     font-size: 20px
-  }
-
-  .small_menu .small_menu_btn__wrapper {
-    position: fixed;
-    width: 70px;
-    top: 0;
-    right: 15px;
-    height: 55px;
-    border: 1px red;
-    padding-top: 12px;
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-    cursor: pointer
-  }
-
-  .small_menu .small_menu_btn__wrapper .small_menu_btn__line {
-    text-align: right;
-    width: 30px;
-    height: 1px;
-    background: #fff;
-    margin: 6px 0
-  }
-
-  .small_menu .small_menu_btn__wrapper .small_menu_btn__line:nth-child(2) {
-    width: 25px
-  }
-
-  .small_menu .small_menu_btn__wrapper .small_menu_btn__line:nth-child(3) {
-    width: 30px
-  }
-
-  @-webkit-keyframes small_menu_btn__text {
-    0% {
-      top: 0
-    }
-
-    5% {
-      top: 152px
-    }
-
-    50% {
-      top: 152px
-    }
-
-    55% {
-      top: 0
-    }
-
-    100% {
-      top: 0
-    }
-  }
-
-  @keyframes small_menu_btn__text {
-    0% {
-      top: 0
-    }
-
-    5% {
-      top: 152px
-    }
-
-    50% {
-      top: 152px
-    }
-
-    55% {
-      top: 0
-    }
-
-    100% {
-      top: 0
-    }
   }
 }
