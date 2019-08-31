@@ -13,6 +13,10 @@ export default class MenuContainer extends Component {
     const wow = new WOW.WOW()
     wow.init()
   }
+  closeMenu(e) {
+    e.preventDefault();
+    document.getElementById('menu').style.left = null
+  }
  render() {
    return(
      <Menu>
@@ -21,7 +25,7 @@ export default class MenuContainer extends Component {
        <SocialWrap />
        <ContactMe/>
        <NavMenu/>
-       <NavExit/>
+       <NavExit closeMenu={this.closeMenu}/>
      </Menu>
    )
   }
