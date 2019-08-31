@@ -5,8 +5,9 @@ import HomeLayout from '../components/home_layout'
 import Section from '../../sections/containers/section'
 import Menu from '../../menu/containers/menu'
 import MenuSmall from '../../menu/containers/menu_small'
+import Home from '../../sections/containers/home'
 
-export default class Home extends Component {
+export default class HomeContainer extends Component {
   render() {
     return (
       <HomeLayout>
@@ -14,6 +15,7 @@ export default class Home extends Component {
         <MenuSmall />
         <RightBord />
         <LeftBord />
+        <Home />
         <Section />
       </HomeLayout>
     )

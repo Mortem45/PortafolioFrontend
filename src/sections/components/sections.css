@@ -2,7 +2,7 @@
   visibility: visible;
   animation-duration: 1s;
   animation-delay: 0.2s;
-  height: 982px;
+  height: 954px;
 }
 
 .section {
@@ -208,15 +208,6 @@
 }
 
 @media screen and (max-width:1368px) {
-
-  .about_us .wrapper,
-  .contact_us .wrapper,
-  .home_slider .wrapper,
-  .project .wrapper,
-  .services .wrapper {
-    margin: 1.5% 50px;
-    height: 95%
-  }
 
   .services .wrapper ul {
     min-width: 40%
