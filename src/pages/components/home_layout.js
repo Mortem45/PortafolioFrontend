@@ -5,7 +5,7 @@ import './animates.css'
 import './keyframes.css'
 
 export default function HomeLayout(props) {
-  return <section className='HomeLayout'>{props.children}</section>
+  return <div className='HomeLayout'>{props.children}</div>
 }
 
 

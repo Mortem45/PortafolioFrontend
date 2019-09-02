@@ -2,7 +2,7 @@ import React from 'react'
 import './home.css'
 
 const Home = (props) => (
-  <section className="section home_slider" data-section-name="home">
+  <section id="home" className="section home_slider" data-section-name="home">
     <div className="wrapper">
       <div className="home_slider__bg"></div>
       <div className="wrap_line__cont">
@@ -17,7 +17,6 @@ const Home = (props) => (
       <h3 className="home_slider__bgTextSub">DEVELOPER</h3>
       <div className="home_slider__bgTextSubpre">
         <h4>full stack </h4>
-        {/* <h4>agency</h4> */}
       </div>
     <div className="home_slider__bgImage"></div>
     </div>

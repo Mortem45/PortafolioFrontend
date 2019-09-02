@@ -5,19 +5,19 @@ const NavMenu = (props) => (
   <nav className="nav_menu__container">
     <ul className="nav_menu">
       <li className="nav_menu__item">
-        <a href="#services">Web development</a>
+        <a href="#home">Web development</a>
         <span>01</span>
       </li>
       <li className="nav_menu__item">
-        <a href="#our-style">About me</a>
+        <a href="#about-me">About me</a>
         <span>02</span>
       </li>
       <li className="nav_menu__item">
-        <a href="#marketing">Skills & Experience</a>
+        <a href="#skills">Skills & Experience</a>
         <span>03</span>
       </li>
       <li className="nav_menu__item">
-        <a href="#project">Portfolio</a>
+        <a href="#portfolio">Portfolio</a>
         <span>04</span>
       </li>
       <li className="nav_menu__item">

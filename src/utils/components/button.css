@@ -1,0 +1,109 @@
+.services_btn {
+  position: absolute;
+  bottom: 15%;
+  left: 20.2%;
+  font-size: 1.7rem;
+  padding: 25px 120px;
+  text-decoration: none;
+  color: #1e1e1e;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  -webkit-box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 2px solid;
+  outline-color: RGBA(235, 211, 0, 1);
+  outline-offset: 0;
+  -webkit-transition: all 1.25s cubic-bezier(.19, 1, .22, 1), bottom .4s cubic-bezier(.19, 1, .22, 1);
+  transition: all 1.25s cubic-bezier(.19, 1, .22, 1), bottom .4s cubic-bezier(.19, 1, .22, 1);
+  cursor: pointer;
+  font-family: BebasNeueBold, sans-serif;
+  font-weight: 800;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: .6s;
+  animation-delay: .6s;
+  background: #ebd300;
+  -webkit-box-shadow: 0 20px 50px -20px rgba(0, 0, 0, .5);
+  box-shadow: 0 20px 50px -20px rgba(0, 0, 0, .5)
+}
+
+.services_btn:hover {
+  border: 2px solid RGBA(235, 211, 0, .5);
+  -webkit-box-shadow: 0 0 0 0 transparent;
+  box-shadow: 0 0 0 0 transparent;
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 25px;
+  bottom: 14%
+}
+
+.about_us .services_btn {
+  z-index: 10;
+}
+
+.contact_us .services_btn,
+.modal_div .services_btn {
+  position: relative;
+  left: auto;
+  background: 0 0;
+  margin: 15px 15px 0 0;
+}
+
+.contact_us .services_btn {
+  background: #ebd300
+}
+
+@media screen and (max-width:1920px) {
+
+  .services_btn {
+    padding: 1.3020833333333335vw 6.25vw;
+    font-size: 1.40625vw
+  }
+
+}
+
+
+@media screen and (max-width:1368px) {
+  .services_btn {
+    padding: 1.9020833333333335vw 7.25vw;
+    font-size: 1.90625vw
+  }
+}
+
+@media screen and (max-width:960px) {
+  .services_btn_wrapSmall {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px
+  }
+
+  .about_us .services_btn,
+  .contact_us .services_btn,
+  .services .services_btn {
+    padding: 1.5rem 3.5rem;
+    font-size: 1.2rem;
+    bottom: auto;
+    left: auto;
+    background: #ebd300;
+    outline-color: RGBA(235, 211, 0, 0);
+    position: relative
+  }
+
+}
+
+@media screen and (max-height:860px) and (min-width:960px) {
+  .services_btn {
+    bottom: 10%
+  }
+
+  .services_btn:hover {
+    bottom: 9%
+  }
+}
+
+@media screen and (max-height:768px) and (max-width:1366px) {
+  .services_btn {
+    padding: 1.5020833333333335vw 5.25vw;
+    font-size: 1.70625vw
+  }
+}
