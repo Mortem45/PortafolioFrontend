@@ -16,8 +16,6 @@ export default class RightBordContainer extends Component {
           <NumberItem numPage={'03'}/>
           <NumberItem numPage={'04'}/>
           <NumberItem numPage={'05'}/>
-          <NumberItem numPage={'06'}/>
-          <NumberItem numPage={'07'}/>
         </NumPageWrapCount>
         <ContactMe />
       </RightBord>

@@ -2,7 +2,7 @@ import React from 'react'
 import './home.css'
 
 const Home = (props) => (
-  <section id='home_id' className='section home_slider' data-section-name='home'>
+  <section id={props.id} className='section home_slider' data-section-name={props.dataName}>
     <div className='wrapper'>
       <div className='home_slider__bg'></div>
       <div className='wrap_line__cont'>

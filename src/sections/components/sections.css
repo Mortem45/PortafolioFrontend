@@ -5,6 +5,9 @@
   height: 100vh;
 }
 
+#portfolio_id{
+  background: #1e1e1e;
+}
 .section {
   overflow: hidden
 }
@@ -62,7 +65,7 @@
   min-width: 38%
 }
 
-#services_id .wrapper ul {
+#about-me_id .wrapper ul {
   min-width: 49%
 }
 
@@ -148,7 +151,7 @@
   display: inline-block;
   margin-top: 4%;
   margin-left: 5%;
-  opacity: 1;
+  opacity: 0;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards
 }
@@ -239,14 +242,14 @@
     margin: 0
   }
 
-  #contact_id,
+  #contactMe_id,
   .about_us,
   .contact_us,
   .services {
     height: auto
   }
 
-  #contact_id .services_btn,
+  #contactMe_id .services_btn,
   .about_us .services_btn,
   .contact_us .services_btn,
   .services .services_btn {
@@ -259,7 +262,7 @@
     position: relative
   }
 
-  #contact_id .wrapper,
+  #contactMe_id .wrapper,
   .about_us .wrapper,
   .contact_us .wrapper,
   .services .wrapper {
@@ -267,14 +270,14 @@
     padding-bottom: 40px
   }
 
-  #contact_id .services_bg__text,
+  #contactMe_id .services_bg__text,
   .about_us .services_bg__text,
   .contact_us .services_bg__text,
   .services .services_bg__text {
     display: none
   }
 
-  #contact_id .wrapper,
+  #contactMe_id .wrapper,
   .about_us .wrapper,
   .contact_us .wrapper,
   .services .wrapper {

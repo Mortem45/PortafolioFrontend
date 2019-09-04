@@ -9,10 +9,10 @@ import NavMenu from '../components/navMenu'
 import NavExit from '../components/navExit'
 
 export default class MenuContainer extends Component {
-  componentDidMount() {
-    const wow = new WOW.WOW()
-    wow.init()
-  }
+  // componentDidMount() {
+  //   const wow = new WOW.WOW()
+  //   wow.init()
+  // }
   closeMenu(e) {
     e.preventDefault();
     document.getElementById('menu').style.left = null
