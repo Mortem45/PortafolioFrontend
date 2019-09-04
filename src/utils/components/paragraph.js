@@ -2,8 +2,8 @@ import React from 'react'
 import './paragraph.css'
 
 const Paragraph = (props) => (
-  <div className="services_title__sub  fadeInLeft">
-    <h4>{props.children}</h4>
+  <div className='services_title__sub'>
+    <h3>{props.children}</h3>
   </div>
 )
 

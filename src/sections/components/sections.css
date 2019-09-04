@@ -148,7 +148,7 @@
   display: inline-block;
   margin-top: 4%;
   margin-left: 5%;
-  opacity: 0;
+  opacity: 1;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards
 }

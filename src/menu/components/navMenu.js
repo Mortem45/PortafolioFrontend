@@ -2,47 +2,47 @@ import React from 'react'
 
 
 const NavMenu = (props) => (
-  <nav className="nav_menu__container">
-    <ul className="nav_menu">
-      <li className="nav_menu__item">
-        <a href="#home">Web development</a>
+  <nav className='nav_menu__container'>
+    <ul className='nav_menu'>
+      <li className='nav_menu__item'>
+        <a href='#home'>Web development</a>
         <span>01</span>
       </li>
-      <li className="nav_menu__item">
-        <a href="#about-me">About me</a>
+      <li className='nav_menu__item'>
+        <a href='#about-me'>About me</a>
         <span>02</span>
       </li>
-      <li className="nav_menu__item">
-        <a href="#skills">Skills & Experience</a>
+      <li className='nav_menu__item'>
+        <a href='#skills'>Skills & Experience</a>
         <span>03</span>
       </li>
-      <li className="nav_menu__item">
-        <a href="#portfolio">Portfolio</a>
+      <li className='nav_menu__item'>
+        <a href='#portfolio'>Portfolio</a>
         <span>04</span>
       </li>
-      <li className="nav_menu__item">
-        <a href="#contact">Contact Me</a>
+      <li className='nav_menu__item'>
+        <a href='#contact'>Contact Me</a>
         <span>05</span></li>
     </ul>
-    <ul className="nav_menu">
-      <li className="nav_menu__item">
-        <a href="#services_id">Web development</a>
+    <ul className='nav_menu'>
+      <li className='nav_menu__item'>
+        <a href='#home'>Web development</a>
         <span>01</span>
       </li>
-      <li className="nav_menu__item">
-        <a href="#our-style_id">About me</a>
+      <li className='nav_menu__item'>
+        <a href='#about-me'>About me</a>
         <span>02</span>
       </li>
-      <li className="nav_menu__item">
-        <a href="#marketing_id">Skills & Experience</a>
+      <li className='nav_menu__item'>
+        <a href='#skills'>Skills & Experience</a>
         <span>03</span>
       </li>
-      <li className="nav_menu__item">
-        <a href="#project_id">Portfolio</a>
+      <li className='nav_menu__item'>
+        <a href='#portfolio'>Portfolio</a>
         <span>04</span>
       </li>
-      <li className="nav_menu__item">
-        <a href="#contact_id">Contact Me</a>
+      <li className='nav_menu__item'>
+        <a href='#contact'>Contact Me</a>
         <span>05</span></li>
     </ul>
   </nav>

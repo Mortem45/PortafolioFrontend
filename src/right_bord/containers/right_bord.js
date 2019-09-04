@@ -11,11 +11,13 @@ export default class RightBordContainer extends Component {
       <RightBord>
         <LenguWrap />
         <NumPageWrapCount>
-          <NumberItem />
-          <NumberItem />
-          <NumberItem />
-          <NumberItem />
-          <NumberItem />
+          <NumberItem numPage={'01'}/>
+          <NumberItem numPage={'02'}/>
+          <NumberItem numPage={'03'}/>
+          <NumberItem numPage={'04'}/>
+          <NumberItem numPage={'05'}/>
+          <NumberItem numPage={'06'}/>
+          <NumberItem numPage={'07'}/>
         </NumPageWrapCount>
         <ContactMe />
       </RightBord>

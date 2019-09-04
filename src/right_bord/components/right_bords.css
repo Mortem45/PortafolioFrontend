@@ -2,6 +2,14 @@
   right: 0
 }
 
+.right_bord {
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    background: 0 0;
+    z-index: 99;
+}
+
 .right_bord .numberPage_count {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
