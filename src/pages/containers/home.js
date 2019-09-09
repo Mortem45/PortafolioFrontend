@@ -9,6 +9,7 @@ import MenuSmall from '../../menu/containers/menu_small'
 import Home from '../../sections/components/home'
 import TitleSection from '../../sections/components/titleSections'
 import Paragraph from '../../utils/components/paragraph'
+import List from '../../utils/components/list'
 export default class HomeContainer extends Component {
   render() {
     return (
@@ -21,11 +22,14 @@ export default class HomeContainer extends Component {
         <Section id={'about-me_id'} dataName={'about-me'}>
           <TitleSection.AboutMe/>
           <Paragraph>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+           Hola soy Brandon Monterrozo, un tipo que se apasiona por el desarrollo de software, que adora los retos y no se rinde fรกcilmente.
+            nUna persona autodidacta, proactivo, honesta y responsable, que cada dia se esmera en aprender algo nuevo para poder superarse
+            y poder alcanzar nuevos retos.
           </Paragraph>
         </Section>
         <Section id={'skills_id'} dataName={'skills'}>
           <TitleSection.Skills/>
+          <List></List>
         </Section>
         <Section id={'portfolio_id'} dataName={'portfolio'}>
           <TitleSection.Skills/>
