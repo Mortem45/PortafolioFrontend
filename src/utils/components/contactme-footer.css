@@ -1,0 +1,252 @@
+.contact_us .contact_us__leftWrap,
+.modal_div .contact_us__leftWrap {
+  position: absolute !important;
+  padding-left: 5%;
+  bottom: 8%;
+  width: 35%;
+  display: block;
+  z-index: 50;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: .8s;
+  animation-delay: .8s;
+}
+
+.contact_us .contact_us__leftWrap .contact_us__leftWrap_title,
+.modal_div .contact_us__leftWrap .contact_us__leftWrap_title {
+  text-transform: uppercase;
+}
+
+.contact_us .contact_us__leftWrap .contact_us__leftWrap_title h3,
+.modal_div .contact_us__leftWrap .contact_us__leftWrap_title h3 {
+  font-size: 2.3rem;
+  font-family: BebasNeueBold, sans-serif;
+  font-weight: 800;
+}
+
+.contact_us .contact_us__leftWrap .contact_us__leftWrap_title h4,
+.contact_us .contact_us__leftWrap .contact_us__leftWrap_title p,
+.modal_div .contact_us__leftWrap .contact_us__leftWrap_title h4,
+.modal_div .contact_us__leftWrap .contact_us__leftWrap_title p {
+  font-size: 2.1rem;
+  font-family: BebasNeueRegular, sans-serif
+}
+
+.contact_us .contact_us__leftWrap .contact_us__leftWrap_text,
+.modal_div .contact_us__leftWrap .contact_us__leftWrap_text {
+  width: 70%;
+  margin-top: 2.5rem;
+  margin-bottom: 4rem;
+  font-size: 1.1rem
+}
+
+.contact_us .contact_us__leftWrap .contact_us__leftWrap_link,
+.modal_div .contact_us__leftWrap .contact_us__leftWrap_link {
+  margin-bottom: 5rem
+}
+
+.contact_us .contact_us__leftWrap .contact_us__leftWrap_link a,
+.modal_div .contact_us__leftWrap .contact_us__leftWrap_link a {
+  position: relative;
+  color: #000;
+  text-decoration: none
+}
+
+.contact_us .contact_us__leftWrap .contact_us__SubleftWrap,
+.modal_div .contact_us__leftWrap .contact_us__SubleftWrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex
+}
+
+.contact_us .contact_us__leftWrap .contact_us__SubleftWrap li,
+.modal_div .contact_us__leftWrap .contact_us__SubleftWrap li {
+  margin: 0 20px
+}
+
+.contact_us .contact_us__leftWrap .contact_us__SubleftWrap li:first-child,
+.modal_div .contact_us__leftWrap .contact_us__SubleftWrap li:first-child {
+  min-width: 160px
+}
+
+.contact_us .contact_us__leftWrap .contact_us__SubleftWrap li p,
+.modal_div .contact_us__leftWrap .contact_us__SubleftWrap li p {
+  min-width: 150px
+}
+
+.contact_us .contact_us__leftWrap .contact_us__SubleftWrap li a,
+.modal_div .contact_us__leftWrap .contact_us__SubleftWrap li a {
+  position: relative;
+  padding-bottom: 10px
+}
+
+.contact_us .contact_us__leftWrap .contact_us__SubleftWrap li a:after,
+.modal_div .contact_us__leftWrap .contact_us__SubleftWrap li a:after {
+  position: absolute;
+  opacity: 0;
+  bottom: -20px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #ebd300;
+  -webkit-transition: all .35s cubic-bezier(1, .5, .38, 1.2);
+  transition: all .35s cubic-bezier(1, .5, .38, 1.2)
+}
+
+.contact_us .contact_us__leftWrap .contact_us__SubleftWrap li a:hover:after,
+.modal_div .contact_us__leftWrap .contact_us__SubleftWrap li a:hover:after {
+  bottom: 0;
+  opacity: 1
+}
+
+.contact_us .contact_us__leftWrap .contact_us__leftWrap_mail,
+.modal_div .contact_us__leftWrap .contact_us__leftWrap_mail {
+  font-family: BebasNeueRegular, sans-serif
+}
+
+.contact_us .contact_us__leftWrap .contact_us__leftWrap_mail h6,
+.modal_div .contact_us__leftWrap .contact_us__leftWrap_mail h6 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem
+}
+
+.contact_us .contact_us__leftWrap .contact_us__leftWrap_mail a,
+.contact_us .contact_us__leftWrap .contact_us__leftWrap_mail p,
+.modal_div .contact_us__leftWrap .contact_us__leftWrap_mail a,
+.modal_div .contact_us__leftWrap .contact_us__leftWrap_mail p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: #393939;
+  text-decoration: none
+}
+
+
+@media screen and (max-width:1920px) {
+  .contact_us .contact_us__leftWrap .contact_us__leftWrap_title h4 {
+    font-size: 1.71875vw
+  }
+
+  .contact_us .contact_us__leftWrap .contact_us__leftWrap_title h3 {
+    font-size: 1.875vw
+  }
+
+  .contact_us .contact_us__leftWrap .contact_us__leftWrap_text,
+  .modal_div .contact_us__leftWrap .contact_us__leftWrap_text {
+    font-size: .8854166666666667vw
+  }
+
+  .contact_us .contact_us__leftWrap .contact_us__leftWrap_mail a,
+  .contact_us .contact_us__leftWrap .contact_us__leftWrap_mail p,
+  .modal_div .contact_us__leftWrap .contact_us__leftWrap_mail a,
+  .modal_div .contact_us__leftWrap .contact_us__leftWrap_mail p {
+    font-size: .8333333333333334vw
+  }
+}
+
+@media screen and (max-width:1368px) {
+  .contact_us .contact_us__leftWrap .contact_us__leftWrap_text {
+    font-size: 1.2854166666666667vw
+  }
+
+  .contact_us .contact_us__leftWrap .contact_us__leftWrap_title h3,
+  .contact_us .contact_us__leftWrap .contact_us__leftWrap_title h4 {
+    font-size: 2.575vw
+  }
+  .contact_us .contact_us__leftWrap_mail .contact_us__SubleftWrap li a,
+  .contact_us .contact_us__leftWrap_mail .contact_us__SubleftWrap li p {
+    font-size: 1.1333333333333334vw
+  }
+}
+
+@media screen and (max-width:960px) {
+
+  .contact_us__leftWrap_title {
+    margin-bottom: 0
+  }
+
+  .contact_us .wrapper .contact_us__leftWrap {
+    opacity: 1;
+    position: relative !important;
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 15px
+  }
+
+  .contact_us .wrapper .contact_us__leftWrap .contact_us__leftWrap_title {
+    text-align: center
+  }
+
+  .contact_us .wrapper .contact_us__leftWrap .contact_us__leftWrap_title h3,
+  .contact_us .wrapper .contact_us__leftWrap .contact_us__leftWrap_title h4 {
+    font-size: 2.3rem
+  }
+
+  .contact_us .wrapper .contact_us__leftWrap .contact_us__leftWrap_title h4 {
+    margin-top: 10px
+  }
+
+  .contact_us .wrapper .contact_us__leftWrap .contact_us__leftWrap_text {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem
+  }
+
+  .contact_us .wrapper .contact_us__leftWrap .contact_us__leftWrap_link {
+    text-align: center
+  }
+
+  .contact_us .wrapper .contact_us__leftWrap .contact_us__leftWrap_mail {
+    text-align: center
+  }
+
+  .contact_us .wrapper .contact_us__leftWrap .contact_us__leftWrap_mail a,
+  .contact_us .wrapper .contact_us__leftWrap .contact_us__leftWrap_mail p {
+    font-size: 1.3rem
+  }
+
+  .contact_us .wrapper .contact_us__leftWrap .contact_us__leftWrap_mail h6 {
+    font-size: 2rem
+  }
+
+  .contact_us .wrapper .contact_us__leftWrap .contact_us__leftWrap_mail .contact_us__SubleftWrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+  }
+
+  .contact_us .wrapper .contact_us__leftWrap .contact_us__leftWrap_mail .contact_us__SubleftWrap li {
+    margin: 25px 0
+  }
+
+  .contact_us .wrapper .contact_us__leftWrap .contact_us__leftWrap_link a {
+    margin: 0
+  }
+
+  .contact_us .contact_us__leftWrap_title h3 {
+    color: #fff;
+    text-shadow: 0 0 10px #000
+  }
+
+  .contact_us .contact_us__leftWrap_title h4 {
+    color: #ebd300;
+    text-shadow: 0 0 10px #000
+  }
+    .contact_us__leftWrap_text {
+    display: block
+  }
+}
+
+@media screen and (max-height:768px) and (max-width:1366px) {
+  .contact_us__leftWrap_title {
+    margin-bottom: 15%
+  }
+   .contact_us__leftWrap_text {
+    display: none
+  }
+}

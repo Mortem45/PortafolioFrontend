@@ -1,0 +1,126 @@
+.contact_us .contact_us__bgText,
+.contact_us .contact_us__bgText__grey,
+.modal_div .contact_us__bgText,
+.modal_div .contact_us__bgText__grey {
+  position: absolute;
+  width: 100%;
+  top: 8%;
+  left: 0;
+  text-align: center;
+  color: #1e1e1e;
+  font-size: 17rem;
+  text-transform: uppercase;
+  font-family: BebasNeueBold, sans-serif;
+  z-index: 7;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
+}
+
+.contact_us .contact_us__bgText__grey,
+.modal_div .contact_us__bgText__grey {
+  top: 2%;
+  color: #f9f9f9;
+  letter-spacing: 1rem;
+  font-size: 20rem;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
+}
+
+.contact_us .contact_us__bgImg,
+.modal_div .contact_us__bgImg {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  top: 8%;
+  left: 0;
+  background: url(../../../assets/img/contactUs_bg.png) no-repeat center;
+  z-index: 9;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.contact_us .contact_us_bgTreangle,
+.modal_div .contact_us_bgTreangle {
+  position: absolute;
+  width: 45%;
+  height: 45%;
+  top: 1%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: url(../../../assets/img/triangleAboutUs.svg) no-repeat center;
+  z-index: 15;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: .8s;
+  animation-delay: .8s;
+}
+
+@media screen and (max-width:1920px) {
+
+  .contact_us .contact_us__bgText__grey,
+  .modal_div .contact_us__bgText__grey {
+    font-size: 16.666666666666668vw
+  }
+
+  .contact_us .contact_us__bgText {
+    font-size: 14.166666666666668vw
+  }
+}
+
+@media screen and (max-width:960px) {
+  .contact_us .wrapper .contact_us__bgText__grey {
+    color: #f3f3f3;
+    top: 70px;
+    letter-spacing: .5rem;
+    font-size: 14.5vw;
+    opacity: 1;
+    font-size: 18.666666666666667vw
+  }
+
+  .contact_us .wrapper .contact_us__bgText {
+    opacity: 1;
+    position: relative;
+    top: auto;
+    left: auto;
+    font-size: 15.666666666666667vw
+  }
+
+  .contact_us .wrapper .contact_us__bgImg {
+    display: block;
+    opacity: 1;
+    position: relative;
+    width: 100%;
+    height: 385px;
+    background-size: cover
+  }
+
+  .contact_us .wrapper .contact_us_bgTreangle {
+    display: none
+  }
+}
+
+@media screen and (max-height:860px) and (min-width:960px) {
+  .contact_us .contact_us__bgText__grey {
+    top: 0
+  }
+
+  .contact_us .contact_us__bgText {
+    top: 0
+  }
+
+  .contact_us .contact_us__bgImg {
+    top: -2%;
+    height: 100%
+  }
+}

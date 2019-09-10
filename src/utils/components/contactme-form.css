@@ -1,0 +1,121 @@
+.contact_us .contact_us__formWrap,
+.modal_div .contact_us__formWrap {
+    width: 30%;
+    position: absolute;
+    bottom: 7%;
+    right: 5%;
+    font-family: 'Open Sans', sans-serif;
+    background: 0 0;
+    z-index: 10;
+    opacity: 0;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-delay: .8s;
+    animation-delay: .8s;
+}
+
+.modal_div .contact_us__formWrap {
+    opacity: 1
+}
+
+.modal_div .contact_us__formWrap {
+    width: 60%;
+    padding-top: 12%;
+    padding-left: 10%;
+    margin: 0 auto;
+    position: relative
+}
+.contact_us .form-group,
+.modal_div .form-group {
+    margin: 5px;
+}
+
+.contact_us .form-group input,
+.contact_us .form-group textarea,
+.modal_div .form-group input,
+.modal_div .form-group textarea {
+    padding: 0 10px 5px 10px;
+    background: 0 0;
+}
+
+.modal_div .form-group input,
+.modal_div .form-group textarea {
+    color: #fff
+}
+
+.modal_div .form-group textarea {
+    height: 90px
+}
+
+.form_rightSection .form-group:first-child {
+    margin-top: 8%
+}
+
+.contact_us .form-label,
+.modal_div .form-label {
+    font-size: 1rem;
+    color: #ebd300;
+    margin: 0;
+    display: block;
+    opacity: 1;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    -webkit-transition: 333ms ease top, 333ms ease opacity;
+    transition: 333ms ease top, 333ms ease opacity;
+}
+
+.contact_us .js-hide-label,
+.modal_div .js-hide-label {
+    opacity: 0;
+}
+
+.contact_us .form-control,
+.modal_div .form-control {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border-color: #ccc;
+    border-width: 0 0 2px 0;
+    border-style: none none solid none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+}
+.contact_us .form-control:focus,
+.modal_div .form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #ebd300;
+}
+.contact_us .text-center,
+.modal_div .text-center {
+    text-align: right;
+}
+.modal_div .text-center {
+    text-align: center
+}
+
+@media screen and (max-width:1368px) {
+  .modal_div .contact_us__formWrap {
+    padding-top: 5%
+  }
+}
+
+@media screen and (max-width:960px) {
+   .contact_us .wrapper .contact_us__formWrap {
+    opacity: 1;
+    position: relative;
+    width: 100%;
+    padding: 0 15px;
+    bottom: auto;
+    right: auto
+  }
+  .contact_us .wrapper .contact-form {
+    opacity: 1
+  }
+   .contact_us .text-center {
+    text-align: center;
+    margin-top: 40px
+  }
+
+
+}

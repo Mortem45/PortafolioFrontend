@@ -8,6 +8,10 @@
   animation-fill-mode: forwards
 }
 
+#about-me_id .services_title__sub {
+  max-width: 30%;
+}
+
 .services_title__sub h3,
 .services_title__sub h4 {
   font-size: 1.3rem;
