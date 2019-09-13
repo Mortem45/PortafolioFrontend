@@ -4,15 +4,12 @@ import './contactme-footer.css'
 const ContactMeFooter = (props) => (
   <ul className='contact_us__leftWrap'>
     <li className='contact_us__leftWrap_title'>
-      <h3>Lorem Ipsum is simply</h3>
-      <h4>text of the</h4>
+      <h3>if you already arrived here</h3>
+      <h4>contact me</h4>
     </li>
     <li className='contact_us__leftWrap_text'>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-         It has survived not only five centuries, but also the leap into electronic typesetting,
-         remaining essentially unchanged.
+      <p>
+
       </p>
     </li>
     <li className='contact_us__leftWrap_mail'>

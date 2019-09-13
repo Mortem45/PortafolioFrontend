@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import WOW from 'wowjs'
 import RightBord from '../../right_bord/containers/right_bord'
 import LeftBord from '../../left_bord/containers/left_bord'
 import HomeLayout from '../components/home_layout'
@@ -13,7 +12,7 @@ import Paragraph from '../../utils/components/paragraph'
 import List from '../../utils/components/list'
 import ContactFooter from '../../utils/components/contactme-footer'
 import ContactMeForm from '../../utils/components/contacteme-form'
-
+import Letras from '../../utils/components/letras'
 export default class HomeContainer extends Component {
   render() {
     return (
@@ -22,25 +21,31 @@ export default class HomeContainer extends Component {
         <MenuSmall />
         <RightBord />
         <LeftBord />
-        <Home id={'home_id'} dataName={'home'}/>
-        <Section id={'about-me_id'} dataName={'about-me'}>
+        <Home id={'home'} dataName={'home'}/>
+        <Section id={'about-me'} dataName={'about-me'}>
           <TitleSection.AboutMe/>
           <Paragraph>
            Hola soy Brandon Monterrozo, un tipo que se apasiona por el desarrollo de software, que adora los retos y no se rinde facilmente.
             Una persona autodidacta, proactivo, honesta y responsable, que cada dia se esmera en aprender algo nuevo para poder superarse
             y poder alcanzar nuevos retos.
           </Paragraph>
+          <Letras.About/>
         </Section>
-        <Section id={'skills_id'} dataName={'skills'}>
+        <Section id={'skills'} dataName={'skills'}>
           <TitleSection.Skills/>
           <List></List>
+          <Paragraph>
+           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+           when an unknown printer took a galley of type and scrambled it to make a type specimen book
+          </Paragraph>
+          <Letras.Skills/>
         </Section>
-        <Section id={'portfolio_id'} dataName={'portfolio'}>
-          <TitleSection.Skills/>
+        <Section id={'portfolio'} dataName={'portfolio'}>
         </Section>
-        <ContactMe id={'contactMe_id'} dataName={'contactMe'}>
-          <ContactMeForm/>
+        <ContactMe id={'contactMe'} dataName={'contactMe'}>
           <ContactFooter/>
+          <ContactMeForm/>
         </ContactMe>
       </HomeLayout>
     )

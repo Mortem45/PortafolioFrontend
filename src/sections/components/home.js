@@ -1,8 +1,12 @@
-import React from 'react'
-import './home.css'
+import React from 'react';
+import './home.css';
 
-const Home = (props) => (
-  <section id={props.id} className='section home_slider' data-section-name={props.dataName}>
+const Home = props => (
+  <section
+    id={props.id}
+    className='section home_slider'
+    data-section-name={props.dataName}
+  >
     <div className='wrapper'>
       <div className='home_slider__bg'></div>
       <div className='wrap_line__cont'>
@@ -18,9 +22,9 @@ const Home = (props) => (
       <div className='home_slider__bgTextSubpre'>
         <h4>full stack </h4>
       </div>
-    <div className='home_slider__bgImage'></div>
+      <div className='home_slider__bgImage'></div>
     </div>
   </section>
-)
+);
 
-export default Home
+export default Home;

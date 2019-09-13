@@ -21,7 +21,7 @@ const NavMenu = (props) => (
         <span>04</span>
       </li>
       <li className='nav_menu__item'>
-        <a href='#contact'>Contact Me</a>
+        <a href='#contactMe'>Contact Me</a>
         <span>05</span></li>
     </ul>
     <ul className='nav_menu'>

@@ -253,8 +253,6 @@
   height: 100%;
   background: red;
   background: transparent url('../../../assets/img/slide-bg.png') no-repeat center/cover;
-
-  /* background: transparent url('../../../assets/img/slide-bg.png') no-repeat center/cover; */
   overflow: hidden
 }
 
@@ -365,5 +363,11 @@
 
   .wrap_line__cont .wrap_line__item:nth-child(3) {
     min-width: 60%
+  }
+}
+
+@media screen and (max-width:520px) {
+   body .home_slider .home_slider__bgText {
+    top: 45%
   }
 }

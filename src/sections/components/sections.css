@@ -5,7 +5,7 @@
   height: 100vh;
 }
 
-#portfolio_id{
+#portfolio{
   background: #1e1e1e;
 }
 .section {
@@ -242,14 +242,14 @@
     margin: 0
   }
 
-  #contactMe_id,
+  #contactMe,
   .about_us,
   .contact_us,
   .services {
     height: auto
   }
 
-  #contactMe_id .services_btn,
+  #contactMe .services_btn,
   .about_us .services_btn,
   .contact_us .services_btn,
   .services .services_btn {
@@ -262,7 +262,7 @@
     position: relative
   }
 
-  #contactMe_id .wrapper,
+  #contactMe .wrapper,
   .about_us .wrapper,
   .contact_us .wrapper,
   .services .wrapper {
@@ -270,14 +270,14 @@
     padding-bottom: 40px
   }
 
-  #contactMe_id .services_bg__text,
+  #contactMe .services_bg__text,
   .about_us .services_bg__text,
   .contact_us .services_bg__text,
   .services .services_bg__text {
     display: none
   }
 
-  #contactMe_id .wrapper,
+  #contactMe .wrapper,
   .about_us .wrapper,
   .contact_us .wrapper,
   .services .wrapper {

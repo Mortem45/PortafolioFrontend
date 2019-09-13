@@ -9,7 +9,7 @@ export default class RightBordContainer extends Component {
   render() {
     return (
       <RightBord>
-        <LenguWrap />
+        <LenguWrap/>
         <NumPageWrapCount>
           <NumberItem numPage={'01'}/>
           <NumberItem numPage={'02'}/>

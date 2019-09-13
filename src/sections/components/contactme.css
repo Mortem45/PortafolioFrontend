@@ -66,6 +66,15 @@
   animation-delay: .8s;
 }
 
+.contact_us,
+.modal_div {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 @media screen and (max-width:1920px) {
 
   .contact_us .contact_us__bgText__grey,
