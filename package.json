@@ -33,10 +33,15 @@
     "webpack-dev-server": "^2.9.3"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.16.4",
+    "i18next": "^17.0.14",
+    "i18next-browser-languagedetector": "^3.0.3",
+    "i18next-xhr-backend": "^3.1.2",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-i18next": "^10.12.4",
     "wowjs": "^1.1.3"
   }
 }

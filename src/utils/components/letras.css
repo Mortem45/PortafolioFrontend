@@ -1,11 +1,11 @@
 .letras {
+  user-select: none;
   position: absolute;
   width: 100%;
   top: 45%;
-  left: 0;
   text-align: center;
   color: #1e1e1e;
-  font-size: 8rem;
+  font-size: 9rem;
   text-transform: uppercase;
   font-family: BebasNeueBold, sans-serif;
   z-index: 7;
@@ -26,11 +26,19 @@
   opacity: 0.02;
   transform: rotate(180deg);
   height: 100%;
-  margin-top: -35px;
+  margin-top: -45px;
 }
 
 .letras .title {
   opacity: 0.05;
+}
+
+#about-me .letras{
+  left: 425px;
+}
+
+#skills .letras {
+  left: -300px;
 }
 
 @media screen and (max-width:960px) {

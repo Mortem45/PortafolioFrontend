@@ -1,0 +1,47 @@
+{
+  "aboutme":{
+    "parr1": "Hello, I am Brandon Monterrozo, someone who is passionate about software development, who loves challenges and does not give up easily.",
+    "parr2": " A self-taught, proactive, honest and responsible person, who every day strives to learn something new to overcome and achieve new challenges."
+  },
+  "skills": {
+    "parr1": "The core of the skill set that surrounds me greatly is the Back End, since it’s my passion and deeply concentrates my attention, precisely with the above my experience includes server administration and virtualization of them.",
+    "parr2": "I am currently incurring in some technologies unknown to me. One of my goals in the near future is to be able to master everything that involves the development, testing and production of applications. I am always eager to learn and adapt to the different facets that are always changing in the industry."
+  },
+  "titles": {
+    "about_me": {
+      "title_sup": "about",
+      "title_inf": "me"
+    },
+    "skills": {
+      "title_sup": "Skills &",
+      "title_inf": "Experience"
+    },
+    "contact": "Contacta me"
+  },
+  "contactform": {
+    "name": "Name",
+    "email": "E-mail",
+    "message_theme": "Message theme",
+    "message": "How can i help you?",
+    "messagePlance": "Message",
+    "send": "Send"
+  },
+  "contactfooter": {
+    "slogan_sup": "if you already arrived here",
+    "slogan_inf": "contact me",
+    "callme": "call me",
+    "callme_ans": "+502 35240325",
+    "writeme": "WRITE ME",
+    "writeme_ans": "ste45_007@hotmail.com",
+    "address": "ADDRESS",
+    "address_ans": "Guatemala, Guatemala"
+  },
+  "menu": {
+    "home": "home",
+    "about_me": "about me",
+    "skills": "skills & experience",
+    "portfolio": "portfolio",
+    "contact_me": "contact me"
+  }
+}
+

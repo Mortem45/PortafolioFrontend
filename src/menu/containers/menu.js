@@ -17,7 +17,7 @@ export default class MenuContainer extends Component {
    return(
      <Menu>
        <Logo/>
-       <LenguWrap/>
+       <LenguWrap changeLangEN={this.props.changeLangEN} changeLangES={this.props.changeLangES}/>
        <SocialWrap />
        <ContactMe/>
        <NavMenu/>

@@ -32,21 +32,21 @@
 }
 
 .local_wrap .local_item:nth-child(1) {
+  font-family: BebasNeueBold, sans-serif;
   left: 0
 }
 
 .local_wrap .local_item:nth-child(1):after {
-  content: "EN"
+  content: "ES"
 }
 
 .local_wrap .local_item:nth-child(2) {
   left: 40%;
-  font-family: BebasNeueBold, sans-serif;
   right: 0
 }
 
 .local_wrap .local_item:nth-child(2):after {
-  content: "ES"
+  content: "EN"
 }
 
 .local_wrap .local_item:hover {

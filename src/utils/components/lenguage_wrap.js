@@ -3,8 +3,8 @@ import './lenguage_wrap.css'
 
 const LenguWrap = props => (
   <div className='local_wrap'>
-    <span id='ES' className='local_item' >ES</span>
-    <span id='EN' className='local_item lenguage's>EN</span>
+    <span id='ES' onClick={props.changeLangES} className='local_item' >ES</span>
+    <span id='EN' onClick={props.changeLangEN} className='local_item lenguage'>EN</span>
   </div>
 )
 

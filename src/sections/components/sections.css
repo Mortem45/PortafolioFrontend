@@ -70,6 +70,7 @@
 }
 
 .services .services_list__wrap {
+  z-index: 7;
   opacity: 0;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
@@ -160,7 +161,7 @@
   font-size: 8rem;
   color: #131313;
   font-family: BebasNeueBold, sans-serif;
-  width: 420px;
+  width: 575px;
   line-height: 95%
 }
 

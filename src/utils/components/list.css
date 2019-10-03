@@ -28,6 +28,7 @@
 }
 
 .services_list__wrap .services_list li {
+  cursor: pointer;
     margin: 20px 0
 }
 
