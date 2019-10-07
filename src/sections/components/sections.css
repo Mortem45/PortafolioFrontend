@@ -109,6 +109,11 @@
   color: #131313
 }
 
+.services #portfolio .services_list__wrap li {
+  padding: 10px;
+  color: white
+}
+
 .services .services_list__wrap li:hover {
   cursor: pointer
 }

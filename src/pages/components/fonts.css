@@ -1,30 +1,30 @@
 @font-face {
   font-family: BebasNeueBold;
-  src: url('./../../../fonts/BebasNeueBold.otf');
+  src: url('/fonts/BebasNeueBold.otf');
   font-style: normal
 }
 
 @font-face {
   font-family: BebasNeueBook;
-  src: url('../../../fonts/BebasNeueBook.otf');
+  src: url('/fonts/BebasNeueBook.otf');
   font-style: normal
 }
 
 @font-face {
   font-family: BebasNeueLight;
-  src: url('../../../fonts/BebasNeueLight.otf');
+  src: url('/fonts/BebasNeueLight.otf');
   font-style: normal
 }
 
 @font-face {
   font-family: BebasNeueThin;
-  src: url('../../../fonts/BebasNeueThin.otf');
+  src: url('/fonts/BebasNeueThin.otf');
   font-style: normal
 }
 
 @font-face {
   font-family: BebasNeueRegular;
-  src: url('../../../fonts/BebasNeueRegular.otf');
+  src: url('/fonts/BebasNeueRegular.otf');
   font-style: normal
 }
 

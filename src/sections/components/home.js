@@ -1,5 +1,5 @@
-import React from 'react';
-import './home.css';
+import React from 'react'
+import './home.css'
 
 const Home = props => (
   <section
@@ -25,6 +25,6 @@ const Home = props => (
       <div className='home_slider__bgImage'></div>
     </div>
   </section>
-);
+)
 
-export default Home;
+export default Home

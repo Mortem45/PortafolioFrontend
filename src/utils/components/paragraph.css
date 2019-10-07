@@ -52,4 +52,8 @@
   #about-me .services_title__sub {
     max-width: 100%;
   }
+    #skills .services_title__sub {
+    max-width: 100%;
+    margin: 8% 8% 10% 10%;
+  }
 }

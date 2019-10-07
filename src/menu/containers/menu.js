@@ -10,7 +10,7 @@ import NavExit from '../components/navExit'
 
 export default class MenuContainer extends Component {
   closeMenu(e) {
-    e.preventDefault();
+    e.preventDefault()
     document.getElementById('menu').style.left = null
   }
  render() {

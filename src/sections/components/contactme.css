@@ -39,7 +39,7 @@
   height: 80%;
   top: 8%;
   left: 0;
-  background: url(../../../assets/img/contactUs_bg.png) no-repeat center;
+  background: url(/assets/img/contactUs_bg.png) no-repeat center;
   z-index: 9;
   opacity: 0;
   -webkit-animation-fill-mode: forwards;
@@ -57,7 +57,7 @@
   left: 0;
   right: 0;
   margin: auto;
-  background: url(../../../assets/img/triangleAboutUs.svg) no-repeat center;
+  background: url(/assets/img/triangleAboutUs.svg) no-repeat center;
   z-index: 15;
   opacity: 0;
   -webkit-animation-fill-mode: forwards;

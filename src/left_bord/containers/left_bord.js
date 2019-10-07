@@ -6,7 +6,7 @@ import Logo from '../../utils/components/logo'
 
 export default class LeftBoardContainer extends Component {
   openMenu(e) {
-    e.preventDefault();
+    e.preventDefault()
     document.getElementById('menu').style.left = 0
   }
 

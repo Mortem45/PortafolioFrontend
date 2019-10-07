@@ -1,5 +1,5 @@
 import React from 'react'
-import {  useTranslation, withTranslation } from 'react-i18next';
+import {  useTranslation, withTranslation } from 'react-i18next'
 import './contact_me.css'
 
 const ContactMe = props => {

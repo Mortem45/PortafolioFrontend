@@ -12,7 +12,7 @@
   right: 0;
   left: 0;
   margin: 0 auto;
-  background: url(../../../assets/img/triangleAboutUs.svg) no-repeat center;
+  background: url(/assets/img/triangleAboutUs.svg) no-repeat center;
   z-index: 2;
   opacity: 0;
   -webkit-animation: home_slider__bgImage 1.5s;
@@ -252,7 +252,7 @@
   max-width: 100%;
   height: 100%;
   background: red;
-  background: transparent url('../../../assets/img/slide-bg.png') no-repeat center/cover;
+  background: transparent url('/assets/img/slide-bg.png') no-repeat center/cover;
   overflow: hidden
 }
 
@@ -335,7 +335,7 @@
 
   /* // FIXME change images */
   .home_slider .home_slider__bg {
-    background: transparent url('../../../assets/img/slide-bg.png') no-repeat center/cover;
+    background: transparent url('/assets/img/slide-bg.png') no-repeat center/cover;
   }
 
   .about_us .wrapper,

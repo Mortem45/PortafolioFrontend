@@ -1,4 +1,4 @@
-.services_list__wrap {
+#skills .services_list__wrap {
     position: absolute;
     top: 31%;
     right: 5%;
@@ -13,8 +13,23 @@
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
-    justify-content: space-between
+    justify-content: space-between;
+    animation-delay: .4s;
 }
+
+#portfolio .services_list__wrap {
+  position: absolute;
+  top: 25%;
+  right: 5%;
+}
+
+#portfolio  li {
+  color: white
+}
+#portfolio  li:hover {
+  color: #ebd300
+}
+
 .services_list__wrap .services_list {
     font-family: BebasNeueRegular, sans-serif;
     font-size: 2rem;
@@ -57,10 +72,11 @@
 
 @media screen and (max-width:960px) {
 
-  .wrapper .services_list__wrap {
+  #skills .wrapper .services_list__wrap {
     position: relative;
     top: auto;
     right: auto;
+    left: 70px;
     width: 100%;
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;

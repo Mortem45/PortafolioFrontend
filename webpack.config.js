@@ -50,7 +50,18 @@ module.exports = env => {
           })
         },
         {
-          test: /\.(jpg|png|gif|svg|otf)$/,
+          test: /\.(otf)$/,
+          use: {
+            loader: 'url-loader',
+            options: {
+              limit: 10000,
+              fallback: 'file-loader',
+              name: 'fonts/[name].[ext]',
+            }
+          }
+        },
+        {
+          test: /\.(jpg|png|gif|svg)$/,
           use: {
             loader: 'url-loader',
             options: {

@@ -3,7 +3,7 @@ import MenuSmall from '../components/menu_small'
 
 export default class MenuSmallContainer extends Component {
   openMenu(e) {
-    e.preventDefault();
+    e.preventDefault()
     document.getElementById('menu').style.left = 0
   }
 
