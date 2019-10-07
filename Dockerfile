@@ -1,10 +1,12 @@
 FROM node:10 as builder
 
+RUN apt-get install -y git
+
 WORKDIR /usr/src
 
-COPY . /
+RUN git clone https://github.com/Mortem45/Mortem-Video-ReactJS.git
 
-WORKDIR /usr/src/
+WORKDIR /usr/src/Mortem-Video-ReactJS
 
 RUN npm install --only=productiondo
 

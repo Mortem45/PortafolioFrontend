@@ -20,7 +20,7 @@ const Home = props => (
       <h3 className='home_slider__bgText'>MORTEM45</h3>
       <h3 className='home_slider__bgTextSub'>DEVELOPER</h3>
       <div className='home_slider__bgTextSubpre'>
-        <h4>full stack </h4>
+        <h4>Back End Developer </h4>
       </div>
       <div className='home_slider__bgImage'></div>
     </div>

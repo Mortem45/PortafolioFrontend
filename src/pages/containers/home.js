@@ -37,8 +37,8 @@ function App (){
         <LenguWrap changeLangEN={changeLangEN} changeLangES={changeLangES}/>
       </RightBord>
       <LeftBord />
-      <Home id={'home'} dataName={'home'}/>
-      <Section id={'about-me'} dataName={'about-me'}>
+      <Home id={'home'} dataName={'home.'}/>
+      <Section id={'about-me'} dataName={'about-me.'}>
         <Letras
           title_sup={t('titles.about_me.title_sup')}
           title_inf={t('titles.about_me.title_inf')}>
@@ -52,7 +52,7 @@ function App (){
           parr2={t('aboutme.parr2')}>
         </Paragraph>
       </Section>
-      <Section id={'skills'} dataName={'skills'}>
+      <Section id={'skills'} dataName={'skills.'}>
         <TitleSection
           title_sup={t('titles.skills.title_sup')}
           title_inf={t('titles.skills.title_inf')}>
@@ -67,12 +67,12 @@ function App (){
         </Letras>
         <ListSkills></ListSkills>
       </Section>
-      <Section id={'portfolio'} dataName={'portfolio'}>
+      <Section id={'portfolio'} dataName={'portfolio.'}>
         <ListPortfolio></ListPortfolio>
       </Section>
       <ContactMe
         id={'contactMe'}
-        dataName={'contactMe'}
+        dataName={'contactMe.'}
         title={t('titles.contact')}>
         <ContactFooter contactfooter={t('contactfooter.slogan_sup')}/>
         <ContactMeForm

@@ -19,13 +19,18 @@
 
 #portfolio .services_list__wrap {
   position: absolute;
-  top: 25%;
-  right: 5%;
+  height: 100%;
+  left: 3%;
 }
 
 #portfolio  li {
   color: white
 }
+
+#portfolio  ul {
+  padding: 25% 0 25% 0;
+}
+
 #portfolio  li:hover {
   color: #ebd300
 }
@@ -83,6 +88,9 @@
     justify-content: space-around
   }
 
+  #portfolio  ul {
+    padding: 50% 0 50% 0;
+  }
   .wrapper .services_list__wrap .services_list {
     font-size: 4vw
   }
