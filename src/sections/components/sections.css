@@ -114,9 +114,6 @@
   color: white
 }
 
-.services .services_list__wrap li:hover {
-  cursor: pointer
-}
 
 .services .services_list__wrap li:hover+li {
   right: 0;
@@ -170,6 +167,10 @@
   line-height: 95%
 }
 
+#portfolio .services_title h2 {
+  color: white
+}
+
 .services_title h2 span {
   margin-left: 110%
 }
@@ -197,10 +198,15 @@
 
 @media screen and (max-width:1920px) {
   .services_title h2 {
-    font-size: 6.666666666666667vw;
+    font-size: 6.5vw;
     display: block
   }
 
+  #portfolio .services_title h2 {
+    font-size: 5vw;
+    display: block;
+   color: #ebd300;
+  }
   .services_title__sub h3,
   .services_title__sub h4 {
     font-size: 1.0416666666666667vw

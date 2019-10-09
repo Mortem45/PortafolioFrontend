@@ -20,11 +20,13 @@
 #portfolio .services_list__wrap {
   position: absolute;
   height: 100%;
-  left: 3%;
+  width: 15%;
+  right: 3%;
 }
 
 #portfolio  li {
-  color: white
+  color: white;
+  cursor: pointer;
 }
 
 #portfolio  ul {
@@ -34,7 +36,9 @@
 #portfolio  li:hover {
   color: #ebd300
 }
-
+#portfolio .services_list__wrap {
+  top: 25%
+}
 .services_list__wrap .services_list {
     font-family: BebasNeueRegular, sans-serif;
     font-size: 2rem;
@@ -48,7 +52,6 @@
 }
 
 .services_list__wrap .services_list li {
-  cursor: pointer;
     margin: 20px 0
 }
 
@@ -76,6 +79,9 @@
 
 
 @media screen and (max-width:960px) {
+  #portfolio {
+    display: none;
+  }
 
   #skills .wrapper .services_list__wrap {
     position: relative;
@@ -119,7 +125,7 @@
     transition: all .5s cubic-bezier(1, .5, .38, 1.2)
   }
 
-  .services_list__wrap .services_list_line:before {
+  #skills .services_list__wrap .services_list_line:before {
     position: absolute;
     content: "";
     width: 1.3rem;
@@ -142,7 +148,7 @@
     color: #ebd300
   }
 
-  .services_list__wrap .services_list_line:hover:before {
+  #skills .services_list__wrap .services_list_line:hover:before {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);

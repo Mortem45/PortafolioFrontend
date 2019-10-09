@@ -9,7 +9,7 @@ RUN git clone https://github.com/Mortem45/PortafolioFrontend.git
 
 WORKDIR /usr/src/PortafolioFrontend
 
-RUN npm install --only=productiondo
+RUN npm install --only=production
 
 RUN ["npm", "run", "build:prod"]
 

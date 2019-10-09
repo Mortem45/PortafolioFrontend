@@ -5552,7 +5552,7 @@ $(document).ready(function() {
       , n = $("#modal_close, #modal_close_bg, #overlay, .menu_btn__container")
       , r = $(".modal_div");
     t.click(function(t) {
-      $.scrollify.move("#contactMe")
+      $.scrollify.move("#contactMe.")
     }),
     n.click(function() {
         r.animate({
