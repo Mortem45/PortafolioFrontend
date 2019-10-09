@@ -36,11 +36,6 @@ $c-label-text: $c-grey;
 
 /****************************************/
 
-// html, body {
-//   margin: 0;
-//   background-color: $c-background;
-//   font-family: sans-serif;
-// }
 
 .slideshow {
   width: 100%;
@@ -48,7 +43,6 @@ $c-label-text: $c-grey;
   border: 0px;
   padding: 0px;
   margin: 0 auto;
-  // background-color: $c-black;
   overflow: hidden;
   height: 100%;
   width: 75%;
@@ -161,29 +155,6 @@ $c-label-text: $c-grey;
     opacity: 1;
   }
 }
-
-
-// .slide_img {
-//   position: absolute;
-//   width: 95%;
-//   height: 80%;
-//   top: 8%nr;
-//   left: 5%;
-//   z-index: 9;
-//   opacity: 1;
-//   -webkit-animation-fill-mode: forwards;
-//   animation-fill-mode: forwards;
-//   -webkit-animation-delay: 0s;
-//   animation-delay: 0s;
-// }
-
-// .slide:nth-child(1) .slide_img {
-//   background: url('/assets/img/clonInsta.gif') no-repeat center;
-// }
-
-// .slide:nth-child(2) .slide_img{
-//   background: url('/assets/img/kubernetes.gif') no-repeat center;
-// }
 
 .slideshow p {
   color: white;

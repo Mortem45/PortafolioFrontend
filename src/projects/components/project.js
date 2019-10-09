@@ -66,7 +66,9 @@ const Project = (props) => {
       <div className='slide'>
         <div className='slide__content'>
           <div className='services_title'><h2>Oauth2.0</h2></div>
-          <p>//TODO
+          <p>
+            Esta es una plataforma de microservicios segura con Oauth2.0 bajo el protocolo OpenID,
+            donde
           </p>
         </div>
       </div>
