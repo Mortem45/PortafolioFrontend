@@ -26,7 +26,6 @@ const Project = (props) => {
               <br/>
               <h3>DATABASE:</h3> este es el modulo responsable del acceso a datos de la aplicacion,
               como base de datos se usa RethinkDB y un bucket de S3 de AWS
-
               <br/><br/>
               <h3>REALTIME:</h3> la aplicacion maneja datos en tiempo real y son gestionadas por este modulo
               que escucha los cambios ocurridos en la base de datos y notifica al frontend que hay un cambio en los datos
@@ -67,8 +66,20 @@ const Project = (props) => {
         <div className='slide__content'>
           <div className='services_title'><h2>Oauth2.0</h2></div>
           <p>
-            Esta es una plataforma de microservicios segura con Oauth2.0 bajo el protocolo OpenID,
-            donde
+            Arquitectura de microservicios con seguridad oauth 2.0 estandarizada con OpenID
+            Los principales componentes son:
+            <br/><br/>
+            <h3>API's:</h3> se exponen 2 API's bajo microservicios, una en Spring con WebFlux conectada a una DB postgres,
+            y otra es una API de Graphql  con WebSockets conectada a MongoDB
+            <br/><br/>
+            <h3>Eureka:</h3> se utiliza Eureka como service discovery, para poder tener un registro de los microservicios disponibles
+            <br/><br/>
+            <h3>Spring Cloud Gateway:</h3> se utiliza como un gateway, este es el encargado de recibir y redireccionar todas las peticiones
+            a donde corresponden, asi como filtrar las mismas.
+            <br/><br/>
+            <h3>Auth Server:</h3> para este servicio se utiliza Keycloak como proveedor de tokens y validaciones de acceso.
+            <br/><br/>
+            <h3>ACTUALMENTE EN DESARROLLO</h3>
           </p>
         </div>
       </div>
@@ -92,17 +103,17 @@ const Project = (props) => {
             la principal caracteristica de esta aplicacion es que trabaja con protocolos de RealTime, como MQTT y WebSocket.
 
             los modulos principales de la plataforma son:
-            <br/><br/>
+            <br/>
             <h3>MODULO DB:</h3> este es el encargado de realizar todas las operaciones con la DB, como consultas o almacenamiento de informacion.
-            <br/><br/>
+            <br/>
             <h3>AGENT:</h3> este es un modulo de Node.js que se va a integrar en cualquier app de Node que se necesite monitoriar.
-            <br/><br/>
+            <br/>
             <h3>MQTT SERVER:</h3> este componente es un Broker de mensajeria que se encarga de redistribuir los mensajes a quienes esten subscritos al mismo,
             en esta plataforma envia los mensajes al modulo de DB y a los clientes que pueden ser aplicaciones WEB o de CLI
-            <br/><br/>
+            <br/>
             <h3>API SERVER:</h3> aqui se realizan todas las consulatas o envio de datos al modulo DB para manipular, este nos sirva para la momento de cargar el app
             poder realizar una grafica con los ultimos valores ingresados en la DB.
-            <br/><br/>
+            <br/>
             <h3>CLIENT:</h3> los clientes para esta aplicacion pueden ser por medio de una aplicacion WEB o de CLI, donde veremos reflejados los datos que estamos monitoreando
             por medio de graficas.
           </p>

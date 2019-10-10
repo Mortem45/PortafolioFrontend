@@ -87,7 +87,7 @@ $c-label-text: $c-grey;
     box-sizing: border-box;
     height: calc(100% - 60px);
     overflow: $slide-overflow;
-    padding: 50px;
+    padding: 20px;
     color: $c-text;
     position: absolute;
     left: 100%;
@@ -177,3 +177,23 @@ $c-label-text: $c-grey;
 .slide:nth-child(14) .services_title {
   margin-top: 30%;
 }
+
+@media screen and (max-height:768px) and (max-width:1366px) {
+  .slideshow p {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-height:900px) and (max-width:1440px) {
+  .slideshow p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-height:1050px) and (max-width:1680px) {
+  .slideshow p {
+    font-size: 14px;
+  }
+}
+

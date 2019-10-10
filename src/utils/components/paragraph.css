@@ -37,7 +37,7 @@
 
   .services_title__sub h3,
   .services_title__sub h4 {
-    font-size: 1.0416666666666667vw
+    font-size: 1vw;
   }
 }
 
@@ -45,14 +45,14 @@
 
   .services_title__sub h3,
   .services_title__sub h4 {
-    font-size: 1.516666666666667vw
+    font-size: 1.5vw
   }
 }
 
 @media screen and (max-height:768px) and (max-width:1366px) {
   .services_title__sub h3,
   .services_title__sub h4 {
-    font-size: 1.216666666666667vw
+    font-size: 1vw;
   }
 }
 
