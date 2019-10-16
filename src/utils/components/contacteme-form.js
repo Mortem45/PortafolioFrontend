@@ -5,7 +5,7 @@ import './button.css'
 
 const ContactMeForm = (props) => (
   <div className='contact_us__formWrap'>
-    <form className='form' id='contact-form'>
+    <form className='form' id='contact-form' action='/email' method='POST'>
       <div className='form-group'>
         <label className='form-label js-hide-label'>{props.name}</label>
         <input className='form-control' name='name' id='contact_us_name' placeholder={props.name}  required=''/>

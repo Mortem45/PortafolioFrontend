@@ -16,7 +16,6 @@ import ContactMeForm from '../../utils/components/contacteme-form'
 import Letras from '../../utils/components/letras'
 import LenguWrap from '../../utils/components/lenguage_wrap'
 import Projects from '../../projects/containers/projects'
-import ProjectContainer from '../../projects/containers/projects'
 
 import { useTranslation } from 'react-i18next'
 
