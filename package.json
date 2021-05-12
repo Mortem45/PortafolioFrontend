@@ -40,7 +40,7 @@
     "i18next-browser-languagedetector": "^3.0.3",
     "i18next-xhr-backend": "^3.1.2",
     "jquery": "^3.4.1",
-    "nodemailer": "^6.3.1",
+    "nodemailer": "^6.4.16",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
